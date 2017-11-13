@@ -8,7 +8,7 @@ This is the {N} Helloworld iOS app but Kinvey-ified
   * Add a row to the Taps collection
   * Grant Update to the Taps collection
 * add row to collection
-* create a user
+* create a 'demo/demo' user
 
 ## App installation instructions
 * tns platform add ios
