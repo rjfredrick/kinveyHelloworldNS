@@ -9,7 +9,7 @@ This is the Kinvey-ified {N} Helloworld iOS app
   * Grant Update to the Taps collection
 * add row to collection
 * create a 'demo/demo' user
- * Or create a new user and modify main-view-model.ts
+  * Or create a new user and modify main-view-model.ts
 
 ## App installation instructions
 * tns platform add ios
