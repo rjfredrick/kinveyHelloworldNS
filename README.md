@@ -1,5 +1,5 @@
 # kinveyHelloworldNS
-This is the {N} Helloworld iOS app but Kinvey-ified
+This is the Kinvey-ified {N} Helloworld iOS app
 
 ## Kinvy instructions
 * create a kinvey app
@@ -9,6 +9,7 @@ This is the {N} Helloworld iOS app but Kinvey-ified
   * Grant Update to the Taps collection
 * add row to collection
 * create a 'demo/demo' user
+ * Or create a new user and modify main-view-model.ts
 
 ## App installation instructions
 * tns platform add ios
