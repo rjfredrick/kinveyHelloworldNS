@@ -3,9 +3,8 @@ This is the {N} Helloworld iOS app but Kinvey-ified
 
 ## Kinvy instructions
 * create a kinvey app
-* create a kinvey collection
-  * Name is Taps
-  * Add a column to the Taps collection
+* create a 'Taps' collection
+  * Add a 'counter' column to the Taps collection
   * Add a row to the Taps collection
   * Grant Update to the Taps collection
 * add row to collection
