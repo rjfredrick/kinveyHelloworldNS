@@ -70,6 +70,10 @@ export class HelloWorldModel extends Observable {
 
   public onTap() {
     this._tap.counter--;
+    if (this._tap.counter < 0) {
+      this._tap.counter = 42;
+    }
+
     this._taps.save(this._tap).then((entity: {}) => {
       // ...
       this.updateMessage();
