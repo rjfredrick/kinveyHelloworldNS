@@ -1,21 +1,25 @@
-# kinveyHelloworldNS
-This is the Kinvey-ified {N} Helloworld iOS app
+# NativeScript JavaScript Template
 
-## Kinvy instructions
-* create a kinvey app
-* create a 'Taps' collection
-  * Add a 'counter' column to the Taps collection
-  * Add a row to the Taps collection
-  * Grant Update to the Taps collection
-* add row to collection
-* create a 'demo/demo' user
-  * Or create a new user and modify main-view-model.ts
+This template creates a "Hello, world" NativeScript app using JavaScript.
 
-## App installation instructions
-* tns platform add ios
-* tns prepare ios
-* open platforms/ios/kinveyHelloworldNS.xcworkspace/
-* enable Keychain Sharing
-* build the project
-* configure app.ts with app key and app secret
-* tns run ios (device of your choice)
+This is the default template, so you can create a new app that uses it with the `--template` option:
+
+```
+tns create my-app-name --template tns-template-hello-world
+```
+
+Or without it:
+
+```
+tns create my-app-name
+```
+
+> Note: Both commands will create a new NativeScript app that uses the latest version of this template published to [npm] (https://www.npmjs.com/package/tns-template-hello-world).
+
+If you want to create a new app that uses the source of the template from the `master` branch, you can execute the following:
+
+```
+tns create my-app-name --template https://github.com/NativeScript/template-hello-world.git#master
+```
+
+**NB:** Please, have in mind that the master branch may refer to dependencies that are not on NPM yet!
